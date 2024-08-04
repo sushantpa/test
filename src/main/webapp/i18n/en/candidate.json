@@ -1,0 +1,45 @@
+{
+  "assessmentApp": {
+    "candidate": {
+      "home": {
+        "title": "Candidates",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Candidate",
+        "createOrEditLabel": "Create or edit a Candidate",
+        "notFound": "No Candidates found"
+      },
+      "created": "A new Candidate is created with identifier {{ param }}",
+      "updated": "A Candidate is updated with identifier {{ param }}",
+      "deleted": "A Candidate is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Candidate {{ id }}?"
+      },
+      "detail": {
+        "title": "Candidate"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "latestTestScore": "Latest Test Score",
+      "lastTestDate": "Last Test Date",
+      "registrationDate": "Registration Date",
+      "registrationCount": "Registration Count",
+      "testTakenCount": "Test Taken Count",
+      "canTakeTest": "Can Take Test",
+      "user": "User",
+      "candidateTest": "Candidate Test",
+      "help": {
+        "firstName": "firstName",
+        "lastName": "fullName",
+        "email": "email",
+        "latestTestScore": "testScore",
+        "lastTestDate": "testScheduledDate",
+        "registrationDate": "registrationDate",
+        "registrationCount": "registrationCount",
+        "testTakenCount": "testCount",
+        "canTakeTest": "active"
+      }
+    }
+  }
+}

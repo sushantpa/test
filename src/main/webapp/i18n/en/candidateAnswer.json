@@ -1,0 +1,29 @@
+{
+  "assessmentApp": {
+    "candidateAnswer": {
+      "home": {
+        "title": "Candidate Answers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Candidate Answer",
+        "createOrEditLabel": "Create or edit a Candidate Answer",
+        "notFound": "No Candidate Answers found"
+      },
+      "created": "A new Candidate Answer is created with identifier {{ param }}",
+      "updated": "A Candidate Answer is updated with identifier {{ param }}",
+      "deleted": "A Candidate Answer is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Candidate Answer {{ id }}?"
+      },
+      "detail": {
+        "title": "Candidate Answer"
+      },
+      "id": "ID",
+      "answer": "Answer",
+      "question": "Question",
+      "candidateTest": "Candidate Test",
+      "help": {
+        "answer": "fieldName"
+      }
+    }
+  }
+}

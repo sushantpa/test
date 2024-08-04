@@ -1,0 +1,119 @@
+.header {
+  width: 100vw;
+  height: 15vh;
+  background-color: #003296;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 58px;
+  padding-right: 58px;
+}
+
+.logo {
+  width: 127px;
+  height: 40px;
+}
+
+.header-text {
+  width: 213px;
+  height: 20px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.header-button {
+  width: 126px;
+  height: 43px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #003296;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.app-content {
+  width: 1440px;
+  background-color: #f4f8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  flex-direction: column;
+}
+
+.instruction-card {
+  width: 50%;
+  height: 70%;
+  border-radius: 10px;
+  border: 1px solid #e6e7ec;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.instruction-text {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 28px;
+  text-align: center;
+  color: #001d58;
+}
+
+.start-button {
+  width: 231px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: #003296;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.instruction-header-text {
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  color: #001d58;
+  font-family: Montserrat;
+  font-size: 20px;
+}
+
+.instruction {
+  width: 124px;
+  height: 20px;
+  color: #003296;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 33px;
+}

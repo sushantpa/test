@@ -1,0 +1,135 @@
+/**
+ * The candidate entity.
+ * @author A true hipster
+ */
+entity Candidate {
+    /** firstName */
+    firstName String
+
+    /** fullName */
+    lastName String
+
+    /** email */
+    email String
+
+    /** testScore */
+    latestTestScore Integer 
+
+    /** testScheduledDate */
+    lastTestDate LocalDate
+
+    /** registrationDate */
+    registrationDate LocalDate
+
+    /** registrationCount */
+    registrationCount Integer
+
+    /** testCount */
+    testTakenCount Integer
+
+    /** active */
+    canTakeTest Boolean
+}
+/**
+ * The test entity.
+ * @author A true hipster
+ */
+entity CandidateTest {
+    /** testCompletionDate */
+    testCompletionDate LocalDate
+    /** testScore */
+    testScore Integer
+    /** testScheduledDate */
+    testScheduledDate LocalDate
+
+    /** questionsAttempted */
+    questionsAttempted String
+
+    /** remainingTime */
+    remainingTime String
+
+    /** testStartDateTime */
+    testStartDateTime  ZonedDateTime
+
+    /** testEndDateTime */
+    testEndDateTime  ZonedDateTime
+}
+
+/**
+ * The Section entity.
+ * @author A true hipster
+ */
+entity Section {
+    /** fieldName */
+    sectionQuestion String
+
+    /** sectionNumberHeading */
+    sectionNumberHeading String
+
+    /** sectionNumber */
+    sectionNumber Integer
+}
+
+/**
+ * The Question entity.
+ * @author A true hipster
+ */
+entity Question {
+    /** question */
+    question String
+
+    /** questionNumber */
+    questionNumber String
+
+    /** a */
+    a String
+
+     /** b */
+    b String
+
+     /** c */
+    c String
+
+     /** a */
+    d String
+
+     /** a */
+    e String
+
+     /** a */
+    answer String
+
+}
+
+
+
+/**
+ * The CandidateAnswer entity.
+ * @author A true hipster
+ */
+entity CandidateAnswer {
+    /** fieldName */
+    answer String
+}
+
+
+
+
+
+/**
+ * One to one relationship.
+ */
+relationship OneToOne {
+    Candidate to User{internalUser}
+    CandidateAnswer to Question
+}
+/**
+ * One to many relationship.
+ */
+relationship OneToMany {
+    Candidate to CandidateTest
+    Section to Question
+    CandidateTest to CandidateAnswer
+}
+
+

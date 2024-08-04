@@ -1,0 +1,36 @@
+{
+  "name": "CandidateAnswer",
+  "fields": [
+    {
+      "fieldName": "answer",
+      "fieldType": "String",
+      "javadoc": "fieldName"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "question",
+      "otherEntityRelationshipName": "candidateAnswer",
+      "relationshipName": "question",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "candidateTest",
+      "otherEntityRelationshipName": "candidateAnswer",
+      "relationshipName": "candidateTest"
+    }
+  ],
+  "javadoc": "The CandidateAnswer entity.\\n@author A true hipster",
+  "entityTableName": "candidate_answer",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210717170832"
+}

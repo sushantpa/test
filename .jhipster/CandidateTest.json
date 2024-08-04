@@ -1,0 +1,65 @@
+{
+  "name": "CandidateTest",
+  "fields": [
+    {
+      "fieldName": "testCompletionDate",
+      "fieldType": "LocalDate",
+      "javadoc": "testCompletionDate"
+    },
+    {
+      "fieldName": "testScore",
+      "fieldType": "Integer",
+      "javadoc": "testScore"
+    },
+    {
+      "fieldName": "testScheduledDate",
+      "fieldType": "LocalDate",
+      "javadoc": "testScheduledDate"
+    },
+    {
+      "fieldName": "questionsAttempted",
+      "fieldType": "String",
+      "javadoc": "questionsAttempted"
+    },
+    {
+      "fieldName": "remainingTime",
+      "fieldType": "String",
+      "javadoc": "remainingTime"
+    },
+    {
+      "fieldName": "testStartDateTime",
+      "fieldType": "ZonedDateTime",
+      "javadoc": "testStartDateTime"
+    },
+    {
+      "fieldName": "testEndDateTime",
+      "fieldType": "ZonedDateTime",
+      "javadoc": "testEndDateTime"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "candidateAnswer",
+      "otherEntityRelationshipName": "candidateTest",
+      "relationshipName": "candidateAnswer"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "candidate",
+      "otherEntityRelationshipName": "candidateTest",
+      "relationshipName": "candidate"
+    }
+  ],
+  "javadoc": "The test entity.\\n@author A true hipster",
+  "entityTableName": "candidate_test",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210713095616"
+}

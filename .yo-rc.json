@@ -1,0 +1,56 @@
+{
+  "generator-jhipster": {
+    "blueprints": [
+      {
+        "name": "generator-jhipster-nodejs",
+        "version": "2.0.0-beta.1"
+      }
+    ],
+    "otherModules": [
+      {
+        "name": "generator-jhipster-nodejs",
+        "version": "2.0.0-beta.1"
+      }
+    ],
+    "applicationType": "monolith",
+    "baseName": "assessment",
+    "jhipsterVersion": "7.0.0",
+    "skipClient": false,
+    "skipServer": false,
+    "skipUserManagement": false,
+    "skipCheckLengthOfIdentifier": false,
+    "skipFakeData": false,
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "testFrameworks": [],
+    "pages": [],
+    "creationTimestamp": 1626165528524,
+    "serverPort": "8081",
+    "packageName": "com.jhipster.node",
+    "databaseType": "sql",
+    "devDatabaseType": "sqlite",
+    "prodDatabaseType": "mysql",
+    "authenticationType": "jwt",
+    "clientFramework": "react",
+    "withAdminUi": true,
+    "clientTheme": "cosmo",
+    "clientThemeVariant": "dark",
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "packageFolder": "com/jhipster/node",
+    "jwtSecretKey": "YWUyZTlhNjU3MmVkYTUxNmFhZjUwY2JjYmIwZDc5YjBlNGExNzI5YWU0OWQ2OTc1NmYyYzM0YzBkZjA2ZDlkMzRiNTk2OTQzZTUzNmNhYTQxNzMyMjkxYjJlOGQzNDczMjlkOTY4NTBhMDY1MmI5YmFmNDY1NmExMjZhNmRhNTY=",
+    "serviceDiscoveryType": false,
+    "websocket": false,
+    "searchEngine": false,
+    "messageBroker": false,
+    "clientPackageManager": "npm",
+    "languages": ["en"],
+    "cacheProvider": "ehcache",
+    "buildTool": "maven",
+    "enableHibernateCache": true,
+    "reactive": false,
+    "entities": ["Candidate", "CandidateTest", "Section", "Question", "CandidateAnswer"],
+    "lastLiquibaseTimestamp": 1626541712000
+  }
+}

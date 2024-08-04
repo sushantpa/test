@@ -1,0 +1,76 @@
+{
+  "name": "Candidate",
+  "fields": [
+    {
+      "fieldName": "firstName",
+      "fieldType": "String",
+      "javadoc": "firstName"
+    },
+    {
+      "fieldName": "lastName",
+      "fieldType": "String",
+      "javadoc": "fullName"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String",
+      "javadoc": "email"
+    },
+    {
+      "fieldName": "latestTestScore",
+      "fieldType": "Integer",
+      "javadoc": "testScore"
+    },
+    {
+      "fieldName": "lastTestDate",
+      "fieldType": "LocalDate",
+      "javadoc": "testScheduledDate"
+    },
+    {
+      "fieldName": "registrationDate",
+      "fieldType": "LocalDate",
+      "javadoc": "registrationDate"
+    },
+    {
+      "fieldName": "registrationCount",
+      "fieldType": "Integer",
+      "javadoc": "registrationCount"
+    },
+    {
+      "fieldName": "testTakenCount",
+      "fieldType": "Integer",
+      "javadoc": "testCount"
+    },
+    {
+      "fieldName": "canTakeTest",
+      "fieldType": "Boolean",
+      "javadoc": "active"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "internalUser",
+      "relationshipName": "user",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "candidateTest",
+      "otherEntityRelationshipName": "candidate",
+      "relationshipName": "candidateTest"
+    }
+  ],
+  "javadoc": "The candidate entity.\\n@author A true hipster",
+  "entityTableName": "candidate",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210713095615"
+}

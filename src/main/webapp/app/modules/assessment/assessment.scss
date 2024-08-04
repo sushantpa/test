@@ -1,0 +1,239 @@
+.header {
+  width: 100vw;
+  height: 15vh;
+  background-color: #003296;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 58px;
+  padding-right: 58px;
+}
+
+.logo {
+  width: 127px;
+  height: 40px;
+}
+
+.header-text {
+  width: 213px;
+  height: 20px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.header-button {
+  width: 126px;
+  height: 43px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #003296;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.assessment-app-content {
+  width: 968px;
+  border-radius: 10px;
+  border: 1px solid #e6e7ec;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question-card {
+  width: 968px;
+  height: 100%;
+  border-radius: 10px;
+  border: 1px solid #e6e7ec;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin-bottom: 50px;
+}
+
+.instruction-text {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 28px;
+  text-align: center;
+  color: #001d58;
+}
+
+.start-button {
+  width: 231px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: #003296;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.instruction-header-text {
+  font-family: 'Montserrat - Bold';
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 58px;
+  text-justify: distribute-all-lines;
+}
+
+.question-instruction {
+  width: 804px;
+  height: 92px;
+  color: #001d58;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  margin-top: 84px;
+  margin-bottom: 84px;
+}
+
+.paragraph {
+  width: 856px;
+  color: #001d58;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 28px;
+  text-align: left;
+  margin-bottom: 50px;
+  p {
+    white-space: pre-line;
+  }
+}
+
+.question-radio-item {
+  width: 856px;
+  height: 63px;
+  background-color: #f4f8ff;
+  color: #001d58;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  margin: 10px;
+  padding: 20px 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.question {
+  width: 100%;
+  color: #001d58;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 28px;
+  text-align: left;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.question-heading {
+  width: 160px;
+  height: 20px;
+  color: #003296;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.previous-button {
+  width: 126px;
+  height: 43px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #329632;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.next-button {
+  width: 126px;
+  height: 43px;
+  border-radius: 5px;
+  border: 1px solid #329632;
+  color: #329632;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.question-heading {
+  align-self: flex-start;
+  margin-bottom: 20px;
+}
+
+.question-navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}

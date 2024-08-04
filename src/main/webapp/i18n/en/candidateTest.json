@@ -1,0 +1,41 @@
+{
+  "assessmentApp": {
+    "candidateTest": {
+      "home": {
+        "title": "Candidate Tests",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Candidate Test",
+        "createOrEditLabel": "Create or edit a Candidate Test",
+        "notFound": "No Candidate Tests found"
+      },
+      "created": "A new Candidate Test is created with identifier {{ param }}",
+      "updated": "A Candidate Test is updated with identifier {{ param }}",
+      "deleted": "A Candidate Test is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Candidate Test {{ id }}?"
+      },
+      "detail": {
+        "title": "Candidate Test"
+      },
+      "id": "ID",
+      "testCompletionDate": "Test Completion Date",
+      "testScore": "Test Score",
+      "testScheduledDate": "Test Scheduled Date",
+      "questionsAttempted": "Questions Attempted",
+      "remainingTime": "Remaining Time",
+      "testStartDateTime": "Test Start Date Time",
+      "testEndDateTime": "Test End Date Time",
+      "candidateAnswer": "Candidate Answer",
+      "candidate": "Candidate",
+      "help": {
+        "testCompletionDate": "testCompletionDate",
+        "testScore": "testScore",
+        "testScheduledDate": "testScheduledDate",
+        "questionsAttempted": "questionsAttempted",
+        "remainingTime": "remainingTime",
+        "testStartDateTime": "testStartDateTime",
+        "testEndDateTime": "testEndDateTime"
+      }
+    }
+  }
+}

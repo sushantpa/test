@@ -1,0 +1,71 @@
+{
+  "name": "Question",
+  "fields": [
+    {
+      "fieldName": "question",
+      "fieldType": "String",
+      "javadoc": "question"
+    },
+    {
+      "fieldName": "questionNumber",
+      "fieldType": "String",
+      "javadoc": "questionNumber"
+    },
+    {
+      "fieldName": "a",
+      "fieldType": "String",
+      "javadoc": "a"
+    },
+    {
+      "fieldName": "b",
+      "fieldType": "String",
+      "javadoc": "b"
+    },
+    {
+      "fieldName": "c",
+      "fieldType": "String",
+      "javadoc": "c"
+    },
+    {
+      "fieldName": "d",
+      "fieldType": "String",
+      "javadoc": "a"
+    },
+    {
+      "fieldName": "e",
+      "fieldType": "String",
+      "javadoc": "a"
+    },
+    {
+      "fieldName": "answer",
+      "fieldType": "String",
+      "javadoc": "a"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "candidateAnswer",
+      "otherEntityRelationshipName": "question",
+      "relationshipName": "candidateAnswer",
+      "ownerSide": false
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "section",
+      "otherEntityRelationshipName": "question",
+      "relationshipName": "section"
+    }
+  ],
+  "javadoc": "The Question entity.\\n@author A true hipster",
+  "entityTableName": "question",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210713095618"
+}
